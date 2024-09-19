@@ -9,7 +9,6 @@
     <artifactId>JogoCriacao</artifactId>
     <version>1.0.0</version>
 
-
     <!-- Definindo o tipo de empacotamento como JAR -->
     <packaging>jar</packaging>
 
@@ -24,7 +23,14 @@
             <id>mavenCentral</id>
             <url>https://repo1.maven.org/maven2/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
+
+
+
 
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
@@ -116,6 +122,13 @@
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Dependência do JitPack -->
+        <dependency>
+            <groupId>com.github.RafaelyOz</groupId>
+            <artifactId>Trabalho_Dungeons-Dragons</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
